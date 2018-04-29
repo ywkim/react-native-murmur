@@ -1,8 +1,12 @@
 {
   "name": "react-native-murmur",
   "version": "0.0.1",
-  "description": "React Native Speech components for iOS",
+  "description": "React Native Speech component for iOS",
   "main": "index.js",
+  "repository": {
+    "url": "git@github.com:ywkim/react-native-murmur.git",
+    "type": "git"
+  },
   "author": "Youngwook Kim <youngwook.kim@gmail.com>",
   "scripts": {
     "test": "npm run lint",
