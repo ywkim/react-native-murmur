@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Youngwook Kim' => 'youngwook.kim@gmail.com' }
   s.source           = { git: 'https://github.com/ywkim/react-native-murmur.git',
                          tag: s.version.to_s }
-  s.source_files     = 'ios/**/*'
+  s.ios.deployment_target = '10.0'
+  s.source_files = 'ios/**/*'
   s.dependency 'React'
 end
