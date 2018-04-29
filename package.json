@@ -5,8 +5,7 @@
   "main": "index.js",
   "author": "Youngwook Kim <youngwook.kim@gmail.com>",
   "scripts": {
-    "test": "npm run lint && npm run jest",
-    "jest": "jest",
+    "test": "npm run lint",
     "lint": "eslint .",
     "format": "eslint --fix ."
   },
@@ -27,19 +26,8 @@
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-prettier": "^2.1.2",
     "eslint-plugin-react": "^7.4.0",
-    "jest-expo": "^25.1.0",
     "prettier": "^1.5.3",
     "react": "16.2.0",
-    "react-native": "^0.52.0",
-    "react-test-renderer": "^16.0.0"
-  },
-  "jest": {
-    "preset": "jest-expo",
-    "setupFiles": [
-      "<rootDir>/jest-setup.js"
-    ],
-    "transformIgnorePatterns": [
-      "node_modules/(?!((jest-)?react-native|react-clone-referenced-element))"
-    ]
+    "react-native": "^0.52.0"
   }
 }
