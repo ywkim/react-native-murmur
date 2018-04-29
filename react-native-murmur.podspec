@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.source           = { git: 'https://github.com/ywkim/react-native-murmur.git',
                          tag: s.version.to_s }
   s.source_files     = 'ios/**/*'
+  s.dependency 'React'
 end
