@@ -8,7 +8,7 @@ import {
   TouchableHighlight,
 } from 'react-native';
 
-import Voice from 'react-native-voice';
+import Voice from 'react-native-murmur';
 
 export default class VoiceTest extends Component {
   constructor(props) {

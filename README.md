@@ -1,12 +1,12 @@
 [![npm][npm]][npm-url]
 [![deps][deps]][deps-url]
 
-<h1 align="center">React Native Voice</h1>
+<h1 align="center">💬 react-native-murmur</h1>
 
-<p align="center">A speech-to-text library for <a href="https://facebook.github.io/react-native/">React Native.</a></p>
+<p align="center"><a href="https://facebook.github.io/react-native/">React Native</a> Speech components for iOS</p>
 
 ```sh
-npm i react-native-voice --save
+npm i react-native-murmur --save
 ```
 
 ## Table of contents
@@ -27,7 +27,7 @@ npm i react-native-voice --save
 <p align="center">Manually or automatically link the NativeModule</p>
 
 ```sh
-react-native link react-native-voice
+react-native link react-native-murmur
 ```
 
 ### Manually Link Android
@@ -35,8 +35,8 @@ react-native link react-native-voice
 
 ```gradle
 ...
-include ':react-native-voice', ':app'
-project(':react-native-voice').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-voice/android')
+include ':react-native-murmur', ':app'
+project(':react-native-murmur').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-voice/android')
 ```
 
 - In `android/app/build.gradle`
@@ -45,7 +45,7 @@ project(':react-native-voice').projectDir = new File(rootProject.projectDir, '..
 ...
 dependencies {
     ...
-    compile project(':react-native-voice')
+    compile project(':react-native-murmur')
 }
 ```
 
@@ -74,19 +74,19 @@ public class MainActivity extends Activity implements ReactApplication {
 
 ### Manually Link iOS
 
-- Drag the Voice.xcodeproj from the react-native-voice/ios folder to the Libraries group on Xcode in your poject. [Manual linking](https://facebook.github.io/react-native/docs/linking-libraries-ios.html)
+- Drag the Voice.xcodeproj from the react-native-murmur/ios folder to the Libraries group on Xcode in your poject. [Manual linking](https://facebook.github.io/react-native/docs/linking-libraries-ios.html)
 
 - Click on your main project file (the one that represents the .xcodeproj) select Build Phases and drag the static library, lib.Voice.a, from the Libraries/Voice.xcodeproj/Products folder to Link Binary With Libraries
 
 
 <h2 align="center">Usage</h2>
 
-<p align="center"><a href="https://github.com/wenkesj/react-native-voice/tree/master/VoiceTest">Full example for Android and iOS.</a></p>
+<p align="center"><a href="https://github.com/wenkesj/react-native-murmur/tree/master/VoiceTest">Full example for Android and iOS.</a></p>
 
 ### Example
 
 ```javascript
-import Voice from 'react-native-voice';
+import Voice from 'react-native-murmur';
 import React, {Component} from 'react';
 
 class VoiceTest extends Component {
@@ -158,11 +158,11 @@ Need to include permissions for `NSMicrophoneUsageDescription` and `NSSpeechReco
 
 Please see the documentation provided by ReactNative for this: [PermissionsAndroid](http://facebook.github.io/react-native/docs/permissionsandroid.html)
 
-[npm]: https://img.shields.io/npm/v/react-native-voice.svg
-[npm-url]: https://npmjs.com/package/react-native-voice
+[npm]: https://img.shields.io/npm/v/react-native-murmur.svg
+[npm-url]: https://npmjs.com/package/react-native-murmur
 
-[deps]: https://david-dm.org/wenkesj/react-native-voice.svg
-[deps-url]: https://david-dm.org/wenkesj/react-native-voice.svg
+[deps]: https://david-dm.org/wenkesj/react-native-murmur.svg
+[deps-url]: https://david-dm.org/wenkesj/react-native-murmur.svg
 
 <h2 align="center">Contibutors</h2>
 
